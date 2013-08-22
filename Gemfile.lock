@@ -1,0 +1,10 @@
+GEM
+  remote: http://ruby.taobao.org/
+  specs:
+    curb (0.8.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb

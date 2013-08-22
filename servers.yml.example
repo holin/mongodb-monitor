@@ -1,0 +1,16 @@
+servers:
+  - server:
+      host: host1
+      port: 28017
+      username: "amdin"
+      password: "secret"
+  - server:
+      host: host2
+      port: 28017
+      username: "amdin"
+      password: "secret"
+  - server:
+      host: host3
+      port: 28017
+      username: "amdin"
+      password: "secret"

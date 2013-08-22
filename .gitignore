@@ -1,3 +1,5 @@
+outputs
+servers.yml
 *.gem
 *.rbc
 .bundle
@@ -11,6 +13,7 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+log
 
 # YARD artifacts
 .yardoc
