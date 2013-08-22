@@ -1,5 +1,6 @@
 outputs
 servers.yml
+nginx.conf
 *.gem
 *.rbc
 .bundle

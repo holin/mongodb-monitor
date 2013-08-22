@@ -1,0 +1,17 @@
+server {
+  listen 80; 
+  server_name monitor.example.com;
+
+  root /path/to/mongodb-monitor/outputs;
+
+  # individual nginx logs for this gxservice vhost
+  access_log  /var/log/nginx/mongodb-monitor_access.log;
+  error_log   /var/log/nginx/mongodb-monitor_error.log;
+
+  location / {
+    autoindex  on;
+    gzip_static on;
+    expires max;
+    add_header Cache-Control public;
+  } 
+}
